@@ -223,3 +223,69 @@ main {
   display: block;
   margin: auto;
 }
+
+/* Contact Section CSS  */
+.contact-section {
+  margin-top: 130px;
+  background: #fff8f3;
+  padding: 130px 0;
+}
+.contact-section-container {
+  display: flex;
+  gap: 120px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.contact-info h3 {
+  text-align: left !important;
+}
+.contact-info p {
+  text-align: left !important;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-form h3 {
+  text-align: left !important;
+  margin-bottom: 30px;
+}
+#name,
+#email,
+#message {
+  width: 461px;
+  border-radius: 5px;
+  border: none;
+  background: #fff;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 25px;
+  padding: 20px 30px;
+  outline: none;
+}
+#message {
+  height: 180px;
+}
+.contact-form-button {
+  padding: 18px 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.test {
+  background-color: aqua;
+}
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  background-color: #181818;
+  color: #757575;
+}
